@@ -1,0 +1,17 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.sidebar {
+    float: left;
+    margin-left: 75%;
+    padding: 0;
+    width: 25%;
+    display: none;
+}
+
+
+.content-area {
+    float: left;
+    margin-right: -100%;
+    width: 100%;
+}

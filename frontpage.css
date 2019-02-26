@@ -1,0 +1,34 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.sidebar {
+    float: left;
+    margin-left: 75%;
+    padding: 0;
+    width: 25%;
+    display: none;
+}
+
+
+.content-area {
+    float: left;
+    margin-right: -100%;
+    width: 100%;
+}
+
+.site-content {
+	padding: 0;
+}
+
+.entry-title {
+    display: none;
+}
+
+.infopanel {
+	margin: 0 9% 0 8%;
+}
+
+.entry-header, .post-thumbnail, .entry-content, .entry-summary, .entry-footer, .comments-area, .image-navigation, .post-navigation, .page-header, .page-content, .content-bottom-widgets {
+    margin-right: 0;
+	margin-left: 0;
+}
