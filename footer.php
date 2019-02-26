@@ -12,9 +12,16 @@
 
 		</div><!-- .site-content -->
 
-		<footer id="colophon" class="site-footer" role="contentinfo">
+		<footer class="site-footer" role="contentinfo">
 	
-<?php get_sidebar( 'content-bottom' ); ?>
+			<p class="footer-info">&copy;<?php echo date("Y"); ?> <?php bloginfo('name') ?></p>
+			
+			<p class="footer-info">Email</p>
+			<p class="footer-info">Phone</p>
+
+			<p class="footer-info">location</p>
+
+			<p class="footer-info">Socials</p>
 			
 		</footer><!-- .site-footer -->
 	</div><!-- .site-inner -->
@@ -23,7 +30,4 @@
 <?php wp_footer(); ?>
 </body>
 </html>
-
-<div class="webporch"><a href="http://webporch.net">Powered by </a> <a href="https://webporch.net"><img src="https://webporch.net/wp-content/themes/webporch/images/WebPorch-Linkback-Logo.png"></a>
-<a href="https://webporch.net">webporch.net</a></div> 
 
