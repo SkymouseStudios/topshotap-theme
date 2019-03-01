@@ -1,8 +1,10 @@
 /*
-Theme Name:     TopShot Theme
-Description:    Twenty Sixteen Child Theme
-Author:         Skymouse Studios
-Template:       twentysixteen
+Theme Name: TopShot Theme
+Description: Twenty Sixteen Child Theme
+Author: Skymouse Studios
+Template: twentysixteen
+Version: 1.0.1
+
 */
 
 @import url("../twentysixteen/style.css");
@@ -195,7 +197,7 @@ li#menu-item-38 {
 	width: 100%;
     display: flex;
     flex-direction: row;
-     align-items: stretch;
+    align-items: stretch;
 }
 
 .home-nav {
@@ -231,23 +233,22 @@ li#menu-item-38 {
 }
 
 .main-navigation li:last-child {
-    border: 1px solid black;
+    border: 1px solid var(--red);
     border-radius: 5px;
     float: right;
 }
 
+.main-navigation li:last-child a {
+    font-weight: bold;
+    color: var(--red);
+}
+
 .main-navigation li:last-child:hover {
-    border: 1px solid blue;
+    border: 1px solid var(--red);
 }
 
 .main-navigation .current-menu-item > a, .main-navigation .current-menu-ancestor > a {
     font-weight: 700;
-	background: #073253; /* Old browsers */
-    background: -moz-linear-gradient(top, #073253 0%, #4b7a9f 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(top, #073253 0%,#4b7a9f 100%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to bottom, #073253 0%,#4b7a9f 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#073253', endColorstr='#4b7a9f',GradientType=0 ); /* IE6-9 */	
-
 }
 
 .main-navigation li:hover > a, .main-navigation li.focus > a {
@@ -770,6 +771,11 @@ section {
     width: 150px;
 }
 
+.grid-item h2 {
+    line-height: 1.3em;
+    margin-bottom: 20px;
+}
+
 .image-block {
     position: relative;
     background-color: #535264;
@@ -883,14 +889,27 @@ section {
 
 .block-video video {
     max-width: none;
-    width: 100%;
+    width: 102%;
     margin: 0;
+    margin-left: -2px;
 }
 
 @media screen and (max-width: 768px) {
+    /*--- Mobile styles ---*/
+    .site-header-menu {
+        padding-top: 50px;
+    }
+
+    .main-navigation li {
+        display: none;
+    }
+
+    .main-navigation li:last-child {
+        display: inline-block;
+    }
 
     .hero-grid {
-        grid-gap: 10px;
+        grid-gap: 30px;
         grid-template-columns: 2;
         grid-auto-rows: minmax(70px, auto);
         display: grid;
@@ -956,6 +975,10 @@ section {
     top: -10px;
     left: 10px;
     background-color: #f9f9f9;
+}
+
+p > label {
+    font-weight: 600;
 }
 
 /*SLIDER SETTINGS*/
@@ -1064,7 +1087,6 @@ section {
 }
 .slider__caption {
   font-weight: 600;
-  margin: 2rem 0 1rem;
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
 }
 .slider__txt {

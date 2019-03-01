@@ -29,11 +29,10 @@ get_header(); ?>
 					</video>
 				</div>
 				<div class="block-main-content">
-					<h2>You bring us your project, we bring you a great drone video.</h2>
+					<h1 style="line-height: 1.5em;">You bring us your project, we bring you a great drone video.</h1>
 					<p>TopShot is Indiana’s premier drone company, no matter the project. It’s where quality lives and safety comes first. With TopShot, your team doesn’t have to worry about a thing.</p>
-					<form action="">
-						
-					</form>
+
+					<?php echo do_shortcode('[contact-form-7 id="5741" title="Home Quote Quick Form"]'); ?>
 				</div>
 			</div>	
 		</div>
@@ -117,25 +116,28 @@ get_header(); ?>
 		  <input type="radio" name="slider" title="slide3" class="slider__nav"/>
 		  <div class="slider__inner">
 		    <div class="slider__contents"><i>🌟🌟🌟🌟🌟</i>
-		      <h2 class="slider__caption">Cindy Lou Gibson</h2>
+		     
 		      <p class="slider__txt">The drone photography of my house is amazing!! Gorgeous, actually.  Great customer service. <strong>Very professional and timely</strong>. Easy to work with the team. Great job! Great company.</p>
+		       <h2 class="slider__caption">Cindy Lou Gibson</h2>
 		    </div>
 		    <div class="slider__contents"><i>🌟🌟🌟🌟🌟</i>
+		      
+		      <p class="slider__txt">I have used TopShot to shoot a drone time-lapse video of a ground-up construction project.  They did a great job communicating with our field team on schedules, and the end result has been a <strong>strong marketing tool</strong>.  I would highly recommend their team!</p>
 		      <h2 class="slider__caption">Lauren Kriner</h2>
-		      <p class="slider__txt">I have used Top Shot to shoot a drone time-lapse video of a ground-up construction project.  They did a great job communicating with our field team on schedules, and the end result has been a <strong>strong marketing tool</strong>.  I would highly recommend their team!</p>
 		    </div>
 
 		    <div class="slider__contents"><i>🌟🌟🌟🌟🌟</i>
-		      <h2 class="slider__caption">Gregg Lavoie</h2>
+		      
 		      <p class="slider__txt">High quality work, extremely fast turnaround and very fair pricing. <strong>Would highly recommend</strong> for any of your aerial photography needs.</p>
+		      <h2 class="slider__caption">Gregg Lavoie</h2>
 		    </div>
 		  </div>
 		</div>
 		</section>
 
 		<section class="callout-main">
-			<h1 class="center-text text-white">Get your own Drone Video.</h1>
-			<button class="button-main">Chat with our team.</button>
+			<h1 class="center-text text-white">Get your own Drone Video!</h1>
+			<button class="drift-open-chat button-main">Chat with our team.</button>
 		</section>
 
 		<section class="callout-secondary">
@@ -161,8 +163,9 @@ get_header(); ?>
 		<div class="response" id="mce-error-response" style="display:none"></div>
 		<div class="response" id="mce-success-response" style="display:none"></div>
 	</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_f87a9feb23560cb5e2759240a_218f440bcc" tabindex="-1" value=""></div>
-    <div class="clear"><input type="submit" value="Download" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+    <div style="position: absolute; left: -5000px;" aria-hidden="true">'
+    	<input type="text" name="b_f87a9feb23560cb5e2759240a_218f440bcc" tabindex="-1" value=""></div>
+    <div class="clear center-text"><input type="submit" value="Download" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
     </div>
 </form>
 </div>

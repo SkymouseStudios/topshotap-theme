@@ -5,4 +5,6 @@
 		'social'  => __( 'Social Links Menu', 'twentysixteen' ),
 		'secondary'  => __( 'Secondary', 'austin south terminal' ),
 	) );
+
+	wp_enqueue_script( 'topshot-scripts', get_stylesheet_directory_uri() . '/js/topshot-scripts.js', array ( 'jquery' ), 1.1, true);
 ?>
