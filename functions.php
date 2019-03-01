@@ -5,5 +5,4 @@
 		'social'  => __( 'Social Links Menu', 'twentysixteen' ),
 		'secondary'  => __( 'Secondary', 'austin south terminal' ),
 	) );
-
 ?>

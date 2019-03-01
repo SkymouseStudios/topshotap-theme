@@ -14,18 +14,18 @@ get_header(); ?>
 				<div class="block-grey-right"></div>
 				<div class="block-grey-left"></div>
 				<div class="block-video video-top-left">
-					<video loop="" muted="" autoplay="" title="Massachusetts Avenue in Downtown Indianapolis" poster="https://rcre.com/wp-content/themes/resource-2018/library/images/bg/best-places-to-work-small-still.jpg">
-						<source src="https://rcre.com/wp-content/uploads/2018/03/best-places-to-work-small.mp4" type="video/mp4">
+					<video loop="" muted="" autoplay="" title="Downtown Indianapolis drone video" poster="https://topshotap.com/wp-content/uploads/2019/02/top-left-still.jpg">
+						<source src="https://topshotap.com/wp-content/uploads/2019/02/top-left.mp4" type="video/mp4">
 					</video>
 				</div>
 				<div class="block-video video-top-right">
-					<video loop="" muted="" autoplay="" title="Massachusetts Avenue in Downtown Indianapolis" poster="https://rcre.com/wp-content/themes/resource-2018/library/images/bg/best-places-to-work-small-still.jpg">
-						<source src="https://topshotap.local/wp-content/uploads/2019/02/video_1_trees_clip.mp4" type="video/mp4">
+					<video loop="" muted="" autoplay="" title="Golf course drone video" poster="https://topshotap.com/wp-content/uploads/2019/02/top-right-still.jpg">
+						<source src="https://topshotap.com/wp-content/uploads/2019/02/top-right.mp4" type="video/mp4">
 					</video>
 				</div>
 				<div class="block-video video-bottom">
-					<video loop="" muted="" autoplay="" title="Massachusetts Avenue in Downtown Indianapolis" poster="https://rcre.com/wp-content/themes/resource-2018/library/images/bg/best-places-to-work-small-still.jpg">
-						<source src="https://topshotap.local/wp-content/uploads/2019/02/video_1_trees_clip.mp4" type="video/mp4">
+					<video loop="" muted="" autoplay="" title="Commercial real estate drone video" poster="https://topshotap.com/wp-content/uploads/2019/02/bottom-still.jpg">
+						<source src="https://topshotap.com/wp-content/uploads/2019/02/bottom.mp4" type="video/mp4">
 					</video>
 				</div>
 				<div class="block-main-content">
@@ -53,20 +53,20 @@ get_header(); ?>
 			
 			<div class="grid-three">
 				<div class="grid-item">
-					<img src="https://topshotap.local/wp-content/uploads/2018/04/TopShot-Cushman-Wakefield.png" alt="" />
-					<h3>Create a drone video without lifting a finger.</h3>
+					<img src="https://topshotap.com/wp-content/uploads/2019/03/icon_video.png" alt="" />
+					<h2>Create a beautiful drone video without lifting a finger.</h2>
 					<p>High-quality 4K video, trained drone pilots and beginning-to-end project oversight are always included.</p>
 				</div>
 
 				<div class="grid-item">
-					<img src="https://topshotap.local/wp-content/uploads/2018/04/TopShot-Cushman-Wakefield.png" alt="" />
-					<h3>Keep your team and business safe.</h3>
+					<img src="https://topshotap.com/wp-content/uploads/2019/03/icon_safe.png" alt="" />
+					<h2>Keep your business safe with our experienced pilots.</h2>
 					<p>Our fully insured and FAA Part 107 Licensed Pilots ensure all flights are safe for you and your business.</p>
 				</div>
 
 				<div class="grid-item">
-					<img src="https://topshotap.local/wp-content/uploads/2018/04/TopShot-Cushman-Wakefield.png" alt="" />
-					<h3>Get things done quickly with our local Indiana team.</h3>
+					<img src="https://topshotap.com/wp-content/uploads/2019/03/icon_indiana.png" alt="" />
+					<h2>Get things done quickly with our local Indiana team.</h2>
 					<p>Local team you can trust. Proudly serving Indianapolis, Carmel, Fishers and Central Indiana.</p>
 				</div>
 			</div>
@@ -75,39 +75,62 @@ get_header(); ?>
 		</section>
 
 		<section class="panel-examples">
-			<h2 class="center-text">What you can do with TopShot</h2>
+			<h2 class="center-text">What you can do with TopShot.</h2>
 
 			<div class="grid-three">
 				<div class="image-block">
-					<img src="https://topshotap.com/wp-content/uploads/2018/04/TopShot-Project-Promotion.jpg"" alt="">
-					<div class="image-caption">Construction</div>
-				</div>
-
-				<div class="image-block">
-					<img src="https://topshotap.com/wp-content/uploads/2018/04/TopShot-Services-1-1.jpg" alt="">
-					<div class="image-caption">Commercial Real Estate</div>
-				</div>
-
-				<div class="image-block">
-					<img src="https://topshotap.com/wp-content/uploads/2018/04/TopShot-Services-1-1.jpg" alt="">
+					<img src="https://topshotap.com/wp-content/uploads/2019/03/residential.jpg"" alt="">
 					<div class="image-caption">Residential</div>
 				</div>
 
 				<div class="image-block">
-					<img src="https://topshotap.com/wp-content/uploads/2018/04/TopShot-Services-1-1.jpg" alt="">
+					<img src="https://topshotap.com/wp-content/uploads/2019/03/commercial-real-estate.jpg" alt="">
+					<div class="image-caption">Commercial Real Estate</div>
+				</div>
+
+				<div class="image-block">
+					<img src="https://topshotap.com/wp-content/uploads/2019/03/construction-2.jpg" alt="">
+					<div class="image-caption">Construction</div>
+				</div>
+
+				<div class="image-block">
+					<img src="https://topshotap.com/wp-content/uploads/2019/03/construction.jpg" alt="">
 					<div class="image-caption">Corporate Videos</div>
 				</div>
 
 				<div class="image-block">
-					<img src="https://topshotap.com/wp-content/uploads/2018/04/TopShot-Services-1-1.jpg" alt="">
-					<div class="image-caption">Marketing Promotions</div>
+					<img src="https://topshotap.com/wp-content/uploads/2019/03/film-production.jpg" alt="">
+					<div class="image-caption">Film Production</div>
 				</div>
 
 				<div class="image-block">
-					<img src="https://topshotap.com/wp-content/uploads/2018/04/TopShot-Services-1-1.jpg" alt="">
-					<div class="image-caption">Film Production</div>
+					<img src="https://topshotap.com/wp-content/uploads/2019/03/marketing.jpg" alt="">
+					<div class="image-caption">Marketing</div>
 				</div>
 			</div>
+		</section>
+
+		<section style="height: 500px; width: 100%;">
+		<div class="slider">
+		  <input type="radio" name="slider" title="slide1" checked="checked" class="slider__nav"/>
+		  <input type="radio" name="slider" title="slide2" class="slider__nav"/>
+		  <input type="radio" name="slider" title="slide3" class="slider__nav"/>
+		  <div class="slider__inner">
+		    <div class="slider__contents"><i>🌟🌟🌟🌟🌟</i>
+		      <h2 class="slider__caption">Cindy Lou Gibson</h2>
+		      <p class="slider__txt">The drone photography of my house is amazing!! Gorgeous, actually.  Great customer service. <strong>Very professional and timely</strong>. Easy to work with the team. Great job! Great company.</p>
+		    </div>
+		    <div class="slider__contents"><i>🌟🌟🌟🌟🌟</i>
+		      <h2 class="slider__caption">Lauren Kriner</h2>
+		      <p class="slider__txt">I have used Top Shot to shoot a drone time-lapse video of a ground-up construction project.  They did a great job communicating with our field team on schedules, and the end result has been a <strong>strong marketing tool</strong>.  I would highly recommend their team!</p>
+		    </div>
+
+		    <div class="slider__contents"><i>🌟🌟🌟🌟🌟</i>
+		      <h2 class="slider__caption">Gregg Lavoie</h2>
+		      <p class="slider__txt">High quality work, extremely fast turnaround and very fair pricing. <strong>Would highly recommend</strong> for any of your aerial photography needs.</p>
+		    </div>
+		  </div>
+		</div>
 		</section>
 
 		<section class="callout-main">
@@ -117,7 +140,7 @@ get_header(); ?>
 
 		<section class="callout-secondary">
 			<h2>Still Planning?</h2>
-			<h3>Download our drone shoot checklist</h3>
+			<h3>Download our drone shoot checklist.</h3>
 
 			<!-- Begin Mailchimp Signup Form -->
 <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
