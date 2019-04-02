@@ -1,4 +1,4 @@
-<?php
+ <?php
 /**
  * The template for displaying the header
  *
@@ -32,8 +32,8 @@
 			<div class="site-header-main">
 				
 				<div id="site-header-menu" class="home-margin site-header-menu">
-					<a class="home-nav" href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
-	  				TopShot
+					<a class="home-nav" href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><img style="width:60px; margin-bottom: 4px;" src="https://topshotap.com/wp-content/uploads/2017/10/topshotap-logo-e1551993031693.png" alt="">
+	  				Top<span>Shot</span>
 	  				</a>
 					<?php if ( has_nav_menu( 'primary' ) ) : ?>
 						<nav id="site-navigation" class="main-navigation" role="navigation" aria-label="<?php esc_attr_e( 'Primary Menu', 'twentysixteen' ); ?>">

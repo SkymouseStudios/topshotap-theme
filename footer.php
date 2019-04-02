@@ -17,7 +17,7 @@
 			<p class="footer-info">&copy;<?php echo date("Y"); ?> <?php bloginfo('name') ?></p>
 			
 			<p class="footer-info"><a href="mailto:info@topshotap.com">info@topshotap.com</a></p>
-			<p class="footer-info"><a href="tel:317-919-7331">(317) 919-7331</a></p>
+			<p class="footer-info"><a href="tel:317-912-3881">(317) 912-3881</a></p>
 
 			<p class="footer-info">Indianapolis, IN</p>
 

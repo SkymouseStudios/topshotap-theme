@@ -103,6 +103,7 @@ body:not(.custom-background-image):before, body:not(.custom-background-image):af
 }
 
 .site-header {
+    border-top: solid 5px var(--blue);
 	padding: 0px;
     margin: 0px;
     padding-top: 20px;
@@ -203,6 +204,11 @@ li#menu-item-38 {
 .home-nav {
     font-size: 1.3em;
     font-weight: 600;
+    color: var(--blue);
+}
+
+.home-nav span {
+    color: var(--red);
 }
 
 .main-navigation {
@@ -215,7 +221,6 @@ li#menu-item-38 {
 }
 
 .main-navigation a {
-    outline-offset: -8px;
     white-space: nowrap;
     margin: 0 6px 0 0;
     color: black;
@@ -229,31 +234,40 @@ li#menu-item-38 {
 
 .main-navigation li {
     display: inline-block;
-    border: none;
+    border-top: none;
+    border-bottom: 3px solid transparent;
 }
 
-.main-navigation li:last-child {
-    border: 1px solid var(--red);
-    border-radius: 5px;
-    float: right;
-}
-
-.main-navigation li:last-child a {
-    font-weight: bold;
-    color: var(--red);
-}
-
-.main-navigation li:last-child:hover {
-    border: 1px solid var(--red);
+.main-navigation li:hover {
+    border-bottom: 3px solid black;
+    transition: 0.5s;
 }
 
 .main-navigation .current-menu-item > a, .main-navigation .current-menu-ancestor > a {
     font-weight: 700;
 }
 
-.main-navigation li:hover > a, .main-navigation li.focus > a {
-	border-bottom: 3px solid black;
-    transition: 0.5s;
+.main-navigation li.nav-cta {
+    float: right;
+    border: none;
+}
+
+.nav-cta a {
+    border-radius: 5px ;
+    border: 3px solid var(--red);
+    color: var(--red);
+    font-weight: 800
+}
+
+.nav-cta a:hover {
+    border-bottom: none;
+    border: 3px solid var(--red);
+    color: var(--red);
+}
+
+.nav-tel {
+    float: right;
+    font-size: 1em;
 }
 
 li#menu-item-25 a {
@@ -760,20 +774,30 @@ section {
 }
 
 .grid-three {
-    margin: 60px 50px;
+    margin: 60px 50px 0px 50px;
     display: grid;
     grid-gap: 100px;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     grid-auto-rows: minmax(250px, auto);
 }
 
+.grid-item {
+    text-align: center;
+}
+
 .grid-item img {
     width: 150px;
+    padding-bottom: 20px;
 }
 
 .grid-item h2 {
+    text-align: center;
     line-height: 1.3em;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+}
+
+.grid-item p{
+    text-align: left;
 }
 
 .image-block {
@@ -803,16 +827,20 @@ section {
     max-width: 90%;
     display: grid;
     grid-gap: 50px;
-    grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+    grid-template-columns: repeat(6, 1fr);
     grid-auto-rows: minmax(70px, auto);
     text-align: center;
     justify-content: center;
 }
 
 .callout-main {
-    background-color: var(--blue);
     padding: 100px 0;
     text-align: center;
+    background:
+    linear-gradient(135deg, #094c7e 21px, #053d68 22px, #053d68 24px, transparent 24px, transparent 67px, #053d68 67px, #053d68 69px, transparent 69px), 
+    linear-gradient(225deg, #094c7e 21px, #053d68 22px, #053d68 24px, transparent 24px, transparent 67px, #053d68 67px, #053d68 69px, transparent 69px)0 64px;
+    background-color: var(--blue);;
+    background-size: 64px 128px;
 }
 
 .callout-secondary {
@@ -822,9 +850,18 @@ section {
 
 .button-main {
     margin-top: 40px;
-    background-color: red;
+    background-color: var(--red);
     color: white;
     transition: 0.5s;
+}
+
+.button-secondary {
+    margin-top: 40px;
+    background-color: var(--blue) !important;
+    color: white;
+    transition: 0.5s;
+    border: none;
+    margin: none;
 }
 
 .client-grid img {
@@ -842,6 +879,9 @@ section {
     grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
     grid-auto-rows: minmax(70px, auto);
     display: grid;
+    margin-top: 30px;
+    margin-right: 190px;
+    margin-left: 100px;
 }
 
 .block-main-content {
@@ -851,37 +891,45 @@ section {
 }
 
 .block-grey-left {
-    background-color: var(--blue);
+    background:
+    linear-gradient(135deg, #094c7e 21px, #053d68 22px, #053d68 24px, transparent 24px, transparent 67px, #053d68 67px, #053d68 69px, transparent 69px), 
+    linear-gradient(225deg, #094c7e 21px, #053d68 22px, #053d68 24px, transparent 24px, transparent 67px, #053d68 67px, #053d68 69px, transparent 69px)0 64px;
+    background-color: var(--blue);;
+    background-size: 64px 128px;
     grid-row: 3 / 6;
     grid-column: 1 / 3;
     border-radius: 0px 10px 10px 0px;
 }
 
 .block-grey-right {
-    background-color: var(--blue);
+    background:
+    linear-gradient(135deg, #094c7e 21px, #053d68 22px, #053d68 24px, transparent 24px, transparent 67px, #053d68 67px, #053d68 69px, transparent 69px), 
+    linear-gradient(225deg, #094c7e 21px, #053d68 22px, #053d68 24px, transparent 24px, transparent 67px, #053d68 67px, #053d68 69px, transparent 69px)0 64px;
+    background-color: var(--blue);;
+    background-size: 64px 128px;
     grid-row: 4 / 6;
     grid-column: 6 / 8;
     border-radius: 10px;
 }
 
-.video-top-left {
-    grid-column: 3 / 5;
-    grid-row: 2 / 4;
+.video-top-right {
+     margin-top: auto;
+    grid-column: 4 / 6;
+    grid-row: 1 / 3;
 }
 
-.video-top-right {
-    margin-top: auto;
-    grid-column: 5 / 8;
-    grid-row: 2 / 4;
+.video-top-left {
+   
+    grid-column: 6 / 8;
+    grid-row: 1 / 3;
 }
 
 .video-bottom {
-    grid-column: 3 / 6;
-    grid-row: 4 / 7;
+    grid-column: 5 / 8;
+    grid-row: 3 / 5;
 }
 
 .block-video {
-    background-color: red;
     border-radius: 10px;
     object-fit: cover;
     overflow: hidden;
@@ -896,6 +944,7 @@ section {
 
 @media screen and (max-width: 768px) {
     /*--- Mobile styles ---*/
+
     .site-header-menu {
         padding-top: 50px;
     }
@@ -906,6 +955,10 @@ section {
 
     .main-navigation li:last-child {
         display: inline-block;
+    }
+
+    .client-grid { 
+        grid-template-columns: repeat(3, 1fr);
     }
 
     .hero-grid {
@@ -935,16 +988,20 @@ section {
     }
 }
 
-
+.site-footer {
+    display: block;
+}
 
 .footer-info {
     margin: 0px 10px;
+    display: inline-block;
+    vertical-align: middle;
 }
 
-.footer-info:last-child a {
+.footer-info .slider__image {
     float: right;
     font-size: 1.2em;
-    padding: 10px 20px;
+    padding: 10px 15px;
     margin-right: 3px;
     background-color: #efefef;
     text-align: center;

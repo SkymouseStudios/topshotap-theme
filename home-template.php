@@ -11,26 +11,24 @@ get_header(); ?>
 
 		<div class="hero">
 			<div class="hero-grid">
-				<div class="block-grey-right"></div>
-				<div class="block-grey-left"></div>
 				<div class="block-video video-top-left">
-					<video loop="" muted="" autoplay="" title="Downtown Indianapolis drone video" poster="https://topshotap.com/wp-content/uploads/2019/02/top-left-still.jpg">
-						<source src="https://topshotap.com/wp-content/uploads/2019/02/top-left.mp4" type="video/mp4">
+					<video loop="" muted="" autoplay="" title="Downtown Indianapolis drone video" poster="https://topshotap.com/wp-content/uploads/2019/03/top-right.jpg">
+						<source src="https://topshotap.com/wp-content/uploads/2019/03/top-right.mp4" type="video/mp4">
 					</video>
 				</div>
 				<div class="block-video video-top-right">
-					<video loop="" muted="" autoplay="" title="Golf course drone video" poster="https://topshotap.com/wp-content/uploads/2019/02/top-right-still.jpg">
-						<source src="https://topshotap.com/wp-content/uploads/2019/02/top-right.mp4" type="video/mp4">
+					<video loop="" muted="" autoplay="" title="Golf course drone video" poster="https://topshotap.com/wp-content/uploads/2019/03/top-left.jpg">
+						<source src="https://topshotap.com/wp-content/uploads/2019/03/top-left.mp4" type="video/mp4">
 					</video>
 				</div>
 				<div class="block-video video-bottom">
-					<video loop="" muted="" autoplay="" title="Commercial real estate drone video" poster="https://topshotap.com/wp-content/uploads/2019/02/bottom-still.jpg">
-						<source src="https://topshotap.com/wp-content/uploads/2019/02/bottom.mp4" type="video/mp4">
+					<video loop="" muted="" autoplay="" title="Construction Timelapse" poster="https://topshotap.com/wp-content/uploads/2019/03/bottom.jpg">
+						<source src="https://topshotap.com/wp-content/uploads/2019/03/bottom.mp4" type="video/mp4">
 					</video>
 				</div>
 				<div class="block-main-content">
 					<h1 style="line-height: 1.5em;">You bring us your project, we bring you a great drone video.</h1>
-					<p>TopShot is Indiana’s premier drone company, no matter the project. It’s where quality lives and safety comes first. With TopShot, your team doesn’t have to worry about a thing.</p>
+					<p>TopShot is Indiana’s premier drone company, no matter the project. It’s where quality lives and safety comes first.</p>
 
 					<?php echo do_shortcode('[contact-form-7 id="5741" title="Home Quote Quick Form"]'); ?>
 				</div>
@@ -38,12 +36,12 @@ get_header(); ?>
 		</div>
 		
 		<section class="client-grid">
-			<img src="https://topshotap.com/wp-content/uploads/2019/02/logo-arco-1.png" alt="">
-			<img src="https://topshotap.com/wp-content/uploads/2019/02/logo-patriot-1.png" alt="">
-			<img src="https://topshotap.com/wp-content/uploads/2019/02/logo-jacksonIG-1.png" alt="">
-			<img src="https://topshotap.com/wp-content/uploads/2019/02/logo-haggerman-1.png" alt="">
-			<img src="https://topshotap.com/wp-content/uploads/2019/02/logo-equiterm-1.png" alt="">
-			<img src="https://topshotap.com/wp-content/uploads/2019/02/logo-cushman-1.png" alt="">
+			<img src="https://topshotap.com/wp-content/uploads/2019/03/logo-arco.png" alt="">
+			<img src="https://topshotap.com/wp-content/uploads/2019/03/logo-c21.png" alt="">
+			<img src="https://topshotap.com/wp-content/uploads/2019/03/logo-resource.png" alt="">
+			<img src="https://topshotap.com/wp-content/uploads/2019/03/logo-haggerman.png" alt="">
+			<img src="https://topshotap.com/wp-content/uploads/2019/03/logo-indy-chamber.png" alt="">
+			<img src="https://topshotap.com/wp-content/uploads/2019/03/logo-cushman.png" alt="">
 		</section>
 
 		<section class="panel-sales">
@@ -53,7 +51,7 @@ get_header(); ?>
 			<div class="grid-three">
 				<div class="grid-item">
 					<img src="https://topshotap.com/wp-content/uploads/2019/03/icon_video.png" alt="" />
-					<h2>Create a beautiful drone video without lifting a finger.</h2>
+					<h2>Create great drone videos without lifting a finger.</h2>
 					<p>High-quality 4K video, trained drone pilots and beginning-to-end project oversight are always included.</p>
 				</div>
 
@@ -74,27 +72,12 @@ get_header(); ?>
 		</section>
 
 		<section class="panel-examples">
-			<h2 class="center-text">What you can do with TopShot.</h2>
+			<h2 class="center-text">What TopShot can do for you:</h2>
 
 			<div class="grid-three">
 				<div class="image-block">
-					<img src="https://topshotap.com/wp-content/uploads/2019/03/residential.jpg"" alt="">
-					<div class="image-caption">Residential</div>
-				</div>
-
-				<div class="image-block">
-					<img src="https://topshotap.com/wp-content/uploads/2019/03/commercial-real-estate.jpg" alt="">
-					<div class="image-caption">Commercial Real Estate</div>
-				</div>
-
-				<div class="image-block">
 					<img src="https://topshotap.com/wp-content/uploads/2019/03/construction-2.jpg" alt="">
 					<div class="image-caption">Construction</div>
-				</div>
-
-				<div class="image-block">
-					<img src="https://topshotap.com/wp-content/uploads/2019/03/construction.jpg" alt="">
-					<div class="image-caption">Corporate Videos</div>
 				</div>
 
 				<div class="image-block">
@@ -103,13 +86,29 @@ get_header(); ?>
 				</div>
 
 				<div class="image-block">
+					<img src="https://topshotap.com/wp-content/uploads/2019/03/commercial-real-estate.jpg" alt="">
+					<div class="image-caption">Commercial Real Estate</div>
+				</div>
+
+				<div class="image-block">
+					<img src="https://topshotap.com/wp-content/uploads/2019/03/golf-course.jpg" alt="">
+					<div class="image-caption">Golf Course Photography</div>
+				</div>
+
+				<div class="image-block">
 					<img src="https://topshotap.com/wp-content/uploads/2019/03/marketing.jpg" alt="">
 					<div class="image-caption">Marketing</div>
 				</div>
+
+				<div class="image-block">
+					<img src="https://topshotap.com/wp-content/uploads/2019/03/residential.jpg"" alt="">
+					<div class="image-caption">Residential</div>
+				</div>
+				
 			</div>
 		</section>
 
-		<section style="height: 500px; width: 100%;">
+		<section style="height: 400px; width: 100%;">
 		<div class="slider">
 		  <input type="radio" name="slider" title="slide1" checked="checked" class="slider__nav"/>
 		  <input type="radio" name="slider" title="slide2" class="slider__nav"/>
@@ -145,7 +144,6 @@ get_header(); ?>
 			<h3>Download our drone shoot checklist.</h3>
 
 			<!-- Begin Mailchimp Signup Form -->
-<link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
 
 <div id="mc_embed_signup">
 <form action="https://TopShotAP.us14.list-manage.com/subscribe/post?u=f87a9feb23560cb5e2759240a&amp;id=218f440bcc" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
@@ -165,7 +163,7 @@ get_header(); ?>
 	</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
     <div style="position: absolute; left: -5000px;" aria-hidden="true">'
     	<input type="text" name="b_f87a9feb23560cb5e2759240a_218f440bcc" tabindex="-1" value=""></div>
-    <div class="clear center-text"><input type="submit" value="Download" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+    <div class="clear center-text"><input type="submit" value="Download" name="subscribe" id="mc-embedded-subscribe" class="button-secondary"></div>
     </div>
 </form>
 </div>
